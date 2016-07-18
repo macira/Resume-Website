@@ -1,1 +1,13 @@
-esimeWEbsite.ss
+body {
+	background-color: lightgray;
+}
+
+body .image {
+	display: block;
+	margin: auto;
+}
+
+body .name {
+	text-align: center;
+	padding: 10px;
+}
