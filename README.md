@@ -13,4 +13,4 @@ Read more here: [License](http://tympanus.net/codrops/licensing/)
 
 [© Codrops 2014](http://www.codrops.com)
 
-
+Mac Ira: I used the bubble effects at the bottom of my webpage.
