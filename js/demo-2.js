@@ -16,7 +16,7 @@
 
         canvas = document.getElementById('demo-canvas');
         canvas.width = width;
-        canvas.height = height;
+        canvas.height = height + 100;
         ctx = canvas.getContext('2d');
 
         // create particles
@@ -70,8 +70,8 @@
 
         function init() {
             _this.pos.x = Math.random()*width;
-            _this.pos.y = height+Math.random()*100;
-            _this.alpha = 0.1+Math.random()*0.3;
+            _this.pos.y = height+Math.random()*50;
+            _this.alpha = 0.1+Math.random()*0.7;
             _this.scale = 0.1+Math.random()*0.3;
             _this.velocity = Math.random();
         }
@@ -84,7 +84,7 @@
             _this.alpha -= 0.0005;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.scale*10, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(255,255,255,'+ _this.alpha+')';
+            ctx.fillStyle = 'rgba(0,0,0,'+ _this.alpha+')';
             ctx.fill();
         };
     }
